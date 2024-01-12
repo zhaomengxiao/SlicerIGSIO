@@ -101,6 +101,7 @@ ExternalProject_Execute(${proj} \"build\" make)
 
     ExternalProject_Add(VP9
       URL ${_download_url}
+      URL_MD5 3db80de6c55d641836ed3e19bf44bc46
       DOWNLOAD_DIR ${CMAKE_BINARY_DIR}
       SOURCE_DIR ${EP_SOURCE_DIR}
       CONFIGURE_COMMAND ""
